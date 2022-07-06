@@ -100,7 +100,7 @@ function Account() {
   if (!user){
     Navigate("/login")
   }
-  else if (user?.uid == "AJC1CI0AfxPrZFIy2ojl8JCSLs63"){
+  else if (user?.uid == "Put Admin account uid for frontend blocking till you set database security rules"){
     Navigate('/admin')
   }
   else if (user) {
